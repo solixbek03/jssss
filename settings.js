@@ -10,13 +10,13 @@ elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
 
   if (isNaN(elInput2.value)) {
-    elP.textContent = `${elInput1.value} Son kiriting`
+    elP.textContent = `${elInput1.value} Son kiriting`;
   } 
   else if (elInput2.value < costDubai) {
-    elP.textContent = `${elInput1.value} Pulingiz yetmadi`
+    elP.textContent = `${elInput1.value} Pulingiz yetmadi`;
   }
   else if(elInput2.value >= costDubai){
-    elP.textContent = `${elInput1.value} pullingiz yetdi iltimos ragistratsiyadan oting`
+    elP.textContent = `${elInput1.value} pullingiz yetdi iltimos ragistratsiyadan oting`;
   }
 })
 
